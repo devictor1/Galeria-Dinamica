@@ -9,9 +9,6 @@ body{
     text-align: center;
     height: 100vh;
 }
-.imgContainer {
-    top: 5em;
-}
 figure{
     opacity: 0;
     display: none;
