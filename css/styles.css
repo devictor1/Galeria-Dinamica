@@ -4,3 +4,23 @@
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+body{
+    background-color: peru;
+    text-align: center;
+    height: 100vh;
+}
+.imgContainer {
+    top: 5em;
+}
+figure{
+    opacity: 0;
+    display: none;
+    position: relative;
+}
+figure img{
+    max-height: 83vh;
+}
+.active{
+    opacity: 1;
+    display: block;
+}
